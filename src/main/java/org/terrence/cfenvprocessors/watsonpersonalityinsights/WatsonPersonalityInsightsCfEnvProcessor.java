@@ -1,4 +1,4 @@
-package org.terrence.testapp.envprocessor;
+package org.terrence.cfenvprocessors.watsonpersonalityinsights;
 
 import java.util.Map;
 
