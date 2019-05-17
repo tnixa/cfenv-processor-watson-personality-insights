@@ -29,8 +29,8 @@ public class WatsonPersonalityInsightsCfEnvProcessor implements CfEnvProcessor {
     @Override
     public void process(CfCredentials cfCredentials, Map<String, Object> properties) {
         // set watsonVersion to date of the released watson spring boot starter
-        // version 0.3.0 was released on 2018-06-22
-        String watsonVersion = "2018-06-22";
+        // version 0.3.0 was released on 2019-05-07
+        String watsonVersion = "2018-05-07";
         properties.put("watson.personality-insights.url", cfCredentials.getUri("http"));
         properties.put("watson.personality-insights.iam-api-key", cfCredentials.getString("apikey"));
         properties.put("watson.personality-insights.versionDate", watsonVersion);
